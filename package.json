@@ -1,0 +1,16 @@
+{
+  "name": "yjs-collaboration-app",
+  "version": "1.0.0",
+  "description": "Simple collaborative editor built with Yjs and Hocuspocus",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "@hocuspocus/server": "^3.2.5",
+    "express-ws": "^5.0.2"
+  }
+}
